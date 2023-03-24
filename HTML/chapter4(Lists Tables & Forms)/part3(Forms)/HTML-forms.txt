@@ -1,0 +1,17 @@
+HTML FORMS
+
+An HTML form is used to collect input from the user form tag is used for the same
+
+	<form>
+	   --  Element of the form  --
+	</form>
+
+There are different form elements for different kinds of user input
+
+
+# input element : Can be of type text, checkbox, radio, button and Submit we also have a 'file' type  
+# textarea element : Defines a multi line text input cols and rows attributes can be used to size the textarea
+# select element : Defines a drop down list
+
+
+NOTE : you don't have to remember all the tags, you will automatically memorise them with practice

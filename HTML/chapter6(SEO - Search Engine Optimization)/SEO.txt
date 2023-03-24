@@ -1,0 +1,33 @@
+SEO - SEARCH ENGINE OPTIMIZATION
+
+We will focus only on HTML standpoint of SEO. We will not be looking into keyword building and Content optimisation
+Aspect of SEO
+
+
+~ Types of SEO
+# on page SEO  -----> Can be done by HTML developers
+# off page SEO
+
+
+~ HTML SEO 
+HTML developers can implement SEO using the following techniques;
+
+1. Set the title very nice & to the point
+
+2. Set the meta description	
+		<meta name="description" content="...">
+
+3. Set a nice URL slug
+
+4. Set the meta keywords tag
+
+5. Set the meta author tag
+		<meta name="author" content="vibhu">
+
+6. Set a favicon
+
+7. Compress images & other resources
+
+8. Remove unused HTML/CSS & JS files + compress them
+
+9. Add alt text to images

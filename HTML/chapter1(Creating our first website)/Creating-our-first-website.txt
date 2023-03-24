@@ -1,0 +1,47 @@
+We start building a website by creating a file named index.html,
+Index.html is a special filename which is presented when the website root address is typed.
+
+
+~ A BASIC HTML PAGE
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+
+A tag is like a Container for either content or other HTML tags.
+
+HTML Document   -------->    Browser    -------->    Rendered Page
+
+
+
+~ Important Notes
+
+1. Head & body tags are children of HTML tag.
+2. HTML is the parent of Head & Body tags.
+3. Most of the HTML elements have opening & closing tag with content in between opening & closing tags.
+4. Some HTML tags have no content. These are called Empty elements eg<br>
+5. WE can either use htm or html extension	
+6. You can use "Inspect Elements" or "View Page Source" option from chrome to look into a website's HTML code.
+
+
+		HTML element = start tag  +  Content  +  End tag
+
+~ Comments in HTML
+	
+	Comments in HTML are used to mark text which should
+Not be parsed. They can help document the source code.
+
+	<!-- HTML Comment -->
+
+~ Case Sensitivity
+HTML is a case insensitive language. <H1> and <h1> tags are the same.

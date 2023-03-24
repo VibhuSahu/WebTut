@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 10px;
+            padding: 10px;
+        }
+
+        /*      CSS - for top --Section-- or heading        */
+        /* topHeading - top Heading section */
+        .topHeading {
+            display: inline-flex;       /* it will put all 'h1' element in line */
+            border: 8px solid gray;   /* it will help you to give border */
+            margin-bottom: 25px;        /* it will give pading outside the div section on bottom */
+            font-size: 40px;            /* it is the size of the font */
+            padding: 2px 16px 2px 10px; /* it will give you the pading around the text inside the div border */
+        }
+
+        /* topHeadingH1 - the class of top heading h1 tag */
+        .topHeading .topHeadingH1{
+            padding-left: 6px;          /* it will give space bitween the word in topHeading div */
+        }
+
+        /* red - class for text inside the top heading, for different colour */
+        .topHeading .red {
+            color: orange; /* it will give 'A' and 'Z' orange colour*/
+        }
+
+
+
+        /*      CSS - for top --second Section-- for cake image */
+        /* Thing's under div firstCakeBlock */
+
+        /* firstCakeImage - for the property of image */
+        .firstCakeImage {
+            width: 682px;           /* it will you to give width of the image */
+        }
+
+        /* cakeParagraph - for the property of paragraph */
+        .cakeParagraph {
+            font-size: 22px;        /* it wll give the size of font text */
+        }
+
+        .font {
+            font-family: "times New Roman", Times, Serif;
+        }
+
+
+
+        /*      CSS - for bottom --third Section-- for last section */
+        .moreRecipe{
+            font-size: 30px;
+        }
+
+        .fourImage {
+            display: inline-flex;
+            
+        }
+
+        .fourImage img {
+            width: 170px;
+        }
+
+
+        
+    </style>
+</head>
+<body>
+    <div class="topHeading">
+        <h1 class="topHeadingH1">From</h1>
+        <h1 class="topHeadingH1 red">A</h1>
+        <h1 class="topHeadingH1">to</h1>
+        <h1 class="topHeadingH1 red">Z</h1><h1>ucchini</h1>
+    </div>
+
+
+    <div class="firstCakeBlock">
+
+        <img src="image/cake.jpg" alt="cake" class="firstCakeImage">
+
+        <p class="cakeParagraph font">This recipe for individual chocolate cakes is so simple and so delicious! </p>
+    </div>
+
+
+    <div>
+        <div>
+            <h4 class="font moreRecipe">More Recipe:</h4>
+        </div>
+        <div class="fourImage">
+            <img src="image/yelowIceCreem.jpg" alt="Yellow Ice Creem">
+            <img src="image/chash.jpg" alt="chass">
+            <img src="image/icecreem .jpg" alt="ice creem">
+            <img src="image/burger.jpg" alt="Burger">
+        </div>
+    </div>
+</body>
+</html>

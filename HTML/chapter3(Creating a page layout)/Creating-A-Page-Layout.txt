@@ -1,0 +1,45 @@
+				CHAPTER - 3 {CREATING A PAGE LAYOUT}
+
+
+When we use the right tag in right place, it results in a better page layout, better indexing by search engines and better user experience.
+
+We use the following tag to get the job done
+	
+	# Website Layout
+	<header>	
+	<main>		-contains nav tag
+	<footer>
+
+Inside the main tag we insert the following tags:
+	
+	<main>	  ----> The main opening tag
+	<section> ----> A page section
+	<article> ----> A self contained content
+	<aside>   ----> Content aside from the content (eg. Ads etc)
+	</main>   ----> The main closing tag
+
+Creating a page like this is not necessary but it creates a readable & structured layout Also they are useful for SEO.
+
+
+~ Link attributes
+<a href="/contact"> Contact us </a>  ----> Contact page opens is same tab
+<a href="/contact" target="_blank"> Contact us </a>  ----> Opens in a new tab
+
+
+We can put any content inside an anchor tag (images, headings etc are all allowed) 
+
+
+If the page is inside a directory, we need to make sure that we link to the correct page.  ---->  (Same applies to img tag as well)
+
+We can add links to images like this
+
+<a href="/about"> <img src="a.jpg" width="120"> </a>  ----> Height will be set automatically 
+
+
+
+~ The DIV tag 
+Div tag is often used as a container for other elements div is a block level element.   ---->  Always takes full width
+
+
+~ The Span tag
+Span is an inline container.   -----> Takes as much width as necessary

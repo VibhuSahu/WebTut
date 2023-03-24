@@ -1,0 +1,11 @@
+EMBEDDING VIDEOS
+
+Video tag is used to play videos in HTML
+
+<video src="videos.mp4"> Error </video>
+
+
+~ Attributes for Video
+We can use ;
+# width : to adjust width of a video (height automatically adjusts)
+# We can use autoplay/loop to autoplay or loop the video.
